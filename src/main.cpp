@@ -11,6 +11,7 @@ int main() {
 	cout << x << endl;
 	Project1 p;
 	p.foo(x);
-	cout << x << endl;
+    cout << x << endl;
+    cout << "coucou!" << endl;
     cout << "coucou!" << endl;
 }
