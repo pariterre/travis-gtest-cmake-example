@@ -8,17 +8,17 @@
 TEST(IndependentMethod, ResetsToZero) {
 	int i = 3;
 	independentMethod(i);
-	EXPECT_EQ(0, i);
+    EXPECT_EQ(0, i);
 
-	i = 12;
+    i = 4;
 	independentMethod(i);
-	EXPECT_EQ(0,i);
+    EXPECT_EQ(0,i);
 }
 
 TEST(IndependentMethod, ResetsToZero2) {
-	int i = 0;
-	independentMethod(i);
-	EXPECT_EQ(0, i);
+    int i = 0;
+    independentMethod(i);
+    EXPECT_EQ(0, i);
 }
 
 // The fixture for testing class Project1. From google test primer.
