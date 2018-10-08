@@ -12,4 +12,5 @@ int main() {
 	Project1 p;
 	p.foo(x);
 	cout << x << endl;
+    cout << "coucou!" << endl;
 }
